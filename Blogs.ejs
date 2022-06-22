@@ -1,0 +1,25 @@
+<%- include ("./Header.ejs") %>
+            <h1>Blogs</h1>
+                <h2>Our blog</h2>
+                    <div class="item">
+                        <div>
+                            <% blogs.forEach(blog => { %>
+                                
+                                <div class="blog">
+                                    <a href="/blogs/<%= blog._id %>"><p class="title"><%= blog.titre %> </p></a>
+                                    <p class="bref"><%= blog.bref %> </p>
+                                    <p class="containts"><%= blog.containts %> </p>
+                                   
+                                </div>
+                            
+                            <% }) %>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur natus eum saepe! Doloribus saepe molestias eius repellat voluptatum? Recusandae cum dolorum laborum quam quibusdam perspiciatis, maxime beatae alias nisi similique!</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ro{
+    justify-items: center;
+    align-items: top;
+}
+nav{
+    position: absolute;
+    right: 12;
+}
